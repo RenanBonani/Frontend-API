@@ -1,17 +1,6 @@
 const API_KEY = '22f15ed30e83b0fec6c12e37596b93d2';
 const API_BASE = 'https://api.themoviedb.org/3';
 
-/*
-- originais da netflix
-- recomendados (trending)
-- em alta (top rated)
-- ação
-- comédia
-- terror
-- romance
-- documentários
-*/
-
 const basicFetch = async (endpoint) => {
     const req = await fetch(`${API_BASE}${endpoint}`);
     const json = await req.json();
