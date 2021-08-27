@@ -2,6 +2,8 @@
 
 Esse Projeto foi criado com intuito de aprendizado, consumindo uma api de filmes.
 
+https://sleepy-snyder-6d1e0b.netlify.app/
+
 ## Tecnologias Usadas
 ReactJs
 JavaScript
